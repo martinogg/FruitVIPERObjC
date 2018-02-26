@@ -22,6 +22,12 @@
 		EEF912DE2044785D002E2D6A /* FruitListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912DD2044785D002E2D6A /* FruitListPresenter.m */; };
 		EEF912E120447B11002E2D6A /* FruitListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912E020447B11002E2D6A /* FruitListInteractor.m */; };
 		EEF912E420447BC4002E2D6A /* FruitListAPIDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912E320447BC4002E2D6A /* FruitListAPIDataStore.m */; };
+		EEF912E920448043002E2D6A /* FruitDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912E820448043002E2D6A /* FruitDetailViewController.m */; };
+		EEF912EE20448BB8002E2D6A /* FruitListViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912ED20448BB8002E2D6A /* FruitListViewControllerTests.m */; };
+		EEF912F520448DAE002E2D6A /* MockFruitListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912F420448DAE002E2D6A /* MockFruitListPresenter.m */; };
+		EEF912F82044910E002E2D6A /* ExtensionFruitListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912F72044910E002E2D6A /* ExtensionFruitListViewController.m */; };
+		EEF912FA204492DD002E2D6A /* FruitListPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912F9204492DD002E2D6A /* FruitListPresenterTests.m */; };
+		EEF912FD204493BF002E2D6A /* MockFruitListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912FC204493BF002E2D6A /* MockFruitListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +77,17 @@
 		EEF912E020447B11002E2D6A /* FruitListInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitListInteractor.m; sourceTree = "<group>"; };
 		EEF912E220447BC4002E2D6A /* FruitListAPIDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FruitListAPIDataStore.h; sourceTree = "<group>"; };
 		EEF912E320447BC4002E2D6A /* FruitListAPIDataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitListAPIDataStore.m; sourceTree = "<group>"; };
+		EEF912E720448043002E2D6A /* FruitDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FruitDetailViewController.h; sourceTree = "<group>"; };
+		EEF912E820448043002E2D6A /* FruitDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitDetailViewController.m; sourceTree = "<group>"; };
+		EEF912EC2044807B002E2D6A /* FruitDetailProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FruitDetailProtocols.h; sourceTree = "<group>"; };
+		EEF912ED20448BB8002E2D6A /* FruitListViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitListViewControllerTests.m; sourceTree = "<group>"; };
+		EEF912F320448DAE002E2D6A /* MockFruitListPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockFruitListPresenter.h; sourceTree = "<group>"; };
+		EEF912F420448DAE002E2D6A /* MockFruitListPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockFruitListPresenter.m; sourceTree = "<group>"; };
+		EEF912F62044910E002E2D6A /* ExtensionFruitListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionFruitListViewController.h; sourceTree = "<group>"; };
+		EEF912F72044910E002E2D6A /* ExtensionFruitListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionFruitListViewController.m; sourceTree = "<group>"; };
+		EEF912F9204492DD002E2D6A /* FruitListPresenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitListPresenterTests.m; sourceTree = "<group>"; };
+		EEF912FB204493BF002E2D6A /* MockFruitListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockFruitListViewController.h; sourceTree = "<group>"; };
+		EEF912FC204493BF002E2D6A /* MockFruitListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockFruitListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +118,7 @@
 		EEF9128920445148002E2D6A = {
 			isa = PBXGroup;
 			children = (
+				EEF912E520448013002E2D6A /* FruitDetail */,
 				EEF912CA20445301002E2D6A /* FruitList */,
 				EEF9129420445148002E2D6A /* fruitViperObjC */,
 				EEF912B020445148002E2D6A /* fruitViperObjCTests */,
@@ -139,9 +157,12 @@
 		EEF912B020445148002E2D6A /* fruitViperObjCTests */ = {
 			isa = PBXGroup;
 			children = (
+				EEF912EF20448C40002E2D6A /* Mocks */,
 				EEF912B120445148002E2D6A /* fruitViperObjCTests.m */,
 				EEF912B320445148002E2D6A /* Info.plist */,
 				EEF912DA20445C8A002E2D6A /* FruitListWireframeTests.m */,
+				EEF912ED20448BB8002E2D6A /* FruitListViewControllerTests.m */,
+				EEF912F9204492DD002E2D6A /* FruitListPresenterTests.m */,
 			);
 			path = fruitViperObjCTests;
 			sourceTree = "<group>";
@@ -219,6 +240,45 @@
 				EEF912D62044545F002E2D6A /* FruitListProtocols.h */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EEF912E520448013002E2D6A /* FruitDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EEF912EA2044804B002E2D6A /* Protocols */,
+				EEF912E620448021002E2D6A /* View */,
+			);
+			path = FruitDetail;
+			sourceTree = "<group>";
+		};
+		EEF912E620448021002E2D6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEF912E720448043002E2D6A /* FruitDetailViewController.h */,
+				EEF912E820448043002E2D6A /* FruitDetailViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEF912EA2044804B002E2D6A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EEF912EC2044807B002E2D6A /* FruitDetailProtocols.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EEF912EF20448C40002E2D6A /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				EEF912F320448DAE002E2D6A /* MockFruitListPresenter.h */,
+				EEF912F420448DAE002E2D6A /* MockFruitListPresenter.m */,
+				EEF912F62044910E002E2D6A /* ExtensionFruitListViewController.h */,
+				EEF912F72044910E002E2D6A /* ExtensionFruitListViewController.m */,
+				EEF912FB204493BF002E2D6A /* MockFruitListViewController.h */,
+				EEF912FC204493BF002E2D6A /* MockFruitListViewController.m */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +422,7 @@
 				EEF912D4204453FD002E2D6A /* FruitListViewController.m in Sources */,
 				EEF912DE2044785D002E2D6A /* FruitListPresenter.m in Sources */,
 				EEF9129720445148002E2D6A /* AppDelegate.m in Sources */,
+				EEF912E920448043002E2D6A /* FruitDetailViewController.m in Sources */,
 				EEF912E420447BC4002E2D6A /* FruitListAPIDataStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,7 +432,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEF912B220445148002E2D6A /* fruitViperObjCTests.m in Sources */,
+				EEF912FD204493BF002E2D6A /* MockFruitListViewController.m in Sources */,
 				EEF912DB20445C8A002E2D6A /* FruitListWireframeTests.m in Sources */,
+				EEF912EE20448BB8002E2D6A /* FruitListViewControllerTests.m in Sources */,
+				EEF912F520448DAE002E2D6A /* MockFruitListPresenter.m in Sources */,
+				EEF912F82044910E002E2D6A /* ExtensionFruitListViewController.m in Sources */,
+				EEF912FA204492DD002E2D6A /* FruitListPresenterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

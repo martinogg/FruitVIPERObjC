@@ -22,6 +22,9 @@
 
 @protocol FruitListPresenterProtocol
 
+-(void) buttonPressed;
+
+@property (nonatomic, weak) id<FruitListViewControllerProtocol> view;
 @property (nonatomic, retain) id<FruitListWireFrameProtocol> wireframe;
 @property (nonatomic, retain) id<FruitListInteractorProtocol> interactor;
 
@@ -29,6 +32,8 @@
 
 
 @protocol FruitListViewControllerProtocol
+
+-(void) showFruitDetail;
 
 @property (nonatomic, retain) id<FruitListPresenterProtocol> presenter;
 

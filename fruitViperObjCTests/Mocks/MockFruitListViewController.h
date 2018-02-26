@@ -1,19 +1,18 @@
 //
-//  FruitListViewController.h
-//  fruitViperObjC
+//  MockFruitListViewController.h
+//  fruitViperObjCTests
 //
 //  Created by martin ogg on 26/02/2018.
 //  Copyright © 2018 martinogg. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 #import "FruitListProtocols.h"
 
-@interface FruitListViewController : UIViewController <FruitListViewControllerProtocol>
+@interface MockFruitListViewController : NSObject <FruitListViewControllerProtocol>
 
--(IBAction) buttonPressed:(id)sender;
+-(void) showFruitDetail;
 
+@property (nonatomic) BOOL showFruitDetailCalled;
 @property (nonatomic, retain) id<FruitListPresenterProtocol> presenter;
 
 @end

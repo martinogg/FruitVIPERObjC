@@ -1,18 +1,18 @@
 //
-//  FruitListViewController.m
+//  FruitDetailViewController.m
 //  fruitViperObjC
 //
 //  Created by martin ogg on 26/02/2018.
 //  Copyright © 2018 martinogg. All rights reserved.
 //
 
-#import "FruitListViewController.h"
+#import "FruitDetailViewController.h"
 
-@interface FruitListViewController ()
+@interface FruitDetailViewController ()
 
 @end
 
-@implementation FruitListViewController
+@implementation FruitDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,13 +24,6 @@
     // Dispose of any resources that can be recreated.
 }
 
--(IBAction) buttonPressed:(id)sender {
-    [_presenter buttonPressed];
-}
-
--(void) showFruitDetail {
-    [self performSegueWithIdentifier:@"FruitShowSegueDetail" sender:self];
-}
 /*
 #pragma mark - Navigation
 

@@ -14,4 +14,8 @@
 
 @implementation FruitListPresenter
 
+-(void) buttonPressed {
+    [_view showFruitDetail];
+}
+
 @end
