@@ -20,6 +20,8 @@
 		EEF912D9204459F1002E2D6A /* FruitListWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912D8204459F1002E2D6A /* FruitListWireframe.m */; };
 		EEF912DB20445C8A002E2D6A /* FruitListWireframeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912DA20445C8A002E2D6A /* FruitListWireframeTests.m */; };
 		EEF912DE2044785D002E2D6A /* FruitListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912DD2044785D002E2D6A /* FruitListPresenter.m */; };
+		EEF912E120447B11002E2D6A /* FruitListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912E020447B11002E2D6A /* FruitListInteractor.m */; };
+		EEF912E420447BC4002E2D6A /* FruitListAPIDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912E320447BC4002E2D6A /* FruitListAPIDataStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,10 @@
 		EEF912DA20445C8A002E2D6A /* FruitListWireframeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitListWireframeTests.m; sourceTree = "<group>"; };
 		EEF912DC2044785D002E2D6A /* FruitListPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FruitListPresenter.h; sourceTree = "<group>"; };
 		EEF912DD2044785D002E2D6A /* FruitListPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitListPresenter.m; sourceTree = "<group>"; };
+		EEF912DF20447B11002E2D6A /* FruitListInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FruitListInteractor.h; sourceTree = "<group>"; };
+		EEF912E020447B11002E2D6A /* FruitListInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitListInteractor.m; sourceTree = "<group>"; };
+		EEF912E220447BC4002E2D6A /* FruitListAPIDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FruitListAPIDataStore.h; sourceTree = "<group>"; };
+		EEF912E320447BC4002E2D6A /* FruitListAPIDataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitListAPIDataStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +189,8 @@
 		EEF912CD2044532D002E2D6A /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				EEF912DF20447B11002E2D6A /* FruitListInteractor.h */,
+				EEF912E020447B11002E2D6A /* FruitListInteractor.m */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -199,6 +207,8 @@
 		EEF912CF2044535A002E2D6A /* DataStore */ = {
 			isa = PBXGroup;
 			children = (
+				EEF912E220447BC4002E2D6A /* FruitListAPIDataStore.h */,
+				EEF912E320447BC4002E2D6A /* FruitListAPIDataStore.m */,
 			);
 			path = DataStore;
 			sourceTree = "<group>";
@@ -345,12 +355,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEF9129A20445148002E2D6A /* ViewController.m in Sources */,
+				EEF912E120447B11002E2D6A /* FruitListInteractor.m in Sources */,
 				EEF912D9204459F1002E2D6A /* FruitListWireframe.m in Sources */,
 				EEF912A020445148002E2D6A /* fruitViperObjC.xcdatamodeld in Sources */,
 				EEF912A820445148002E2D6A /* main.m in Sources */,
 				EEF912D4204453FD002E2D6A /* FruitListViewController.m in Sources */,
 				EEF912DE2044785D002E2D6A /* FruitListPresenter.m in Sources */,
 				EEF9129720445148002E2D6A /* AppDelegate.m in Sources */,
+				EEF912E420447BC4002E2D6A /* FruitListAPIDataStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

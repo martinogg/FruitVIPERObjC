@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FruitListWireframe.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    UIStoryboard* mainStoryBoard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    UINavigationController* navController = [mainStoryBoard instantiateViewControllerWithIdentifier:@"NavigationController"];
+    
+    id view = navController.childViewControllers.firstObject;
+    [FruitListWireframe attachFruitListModuleToViewController:view];
+    _window.rootViewController = navController;
+    [_window makeKeyAndVisible];
+    
     return YES;
 }
 

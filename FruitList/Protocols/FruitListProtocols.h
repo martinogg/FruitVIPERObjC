@@ -10,6 +10,7 @@
 @import UIKit;
 
 @protocol FruitListViewControllerProtocol;
+@protocol FruitListInteractorProtocol;
 
 
 @protocol FruitListWireFrameProtocol
@@ -22,6 +23,7 @@
 @protocol FruitListPresenterProtocol
 
 @property (nonatomic, retain) id<FruitListWireFrameProtocol> wireframe;
+@property (nonatomic, retain) id<FruitListInteractorProtocol> interactor;
 
 @end
 
@@ -31,6 +33,19 @@
 @property (nonatomic, retain) id<FruitListPresenterProtocol> presenter;
 
 @end
+
+
+@protocol FruitListAPIDataStoreProtocol
+
+@end
+
+
+@protocol FruitListInteractorProtocol
+
+@property (nonatomic, retain) id<FruitListAPIDataStoreProtocol> apiDataStore;
+
+@end
+
 
 
 

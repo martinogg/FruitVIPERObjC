@@ -13,5 +13,6 @@
 @interface FruitListPresenter : NSObject <FruitListPresenterProtocol>
 
 @property (nonatomic, retain) id<FruitListWireFrameProtocol> wireframe;
+@property (nonatomic, retain) id<FruitListInteractorProtocol> interactor;
 
 @end

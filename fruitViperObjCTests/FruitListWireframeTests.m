@@ -39,6 +39,9 @@
     XCTAssert(mockVC != nil);
     XCTAssert(mockVC.presenter != nil);
     XCTAssert(mockVC.presenter.wireframe != nil);
+    XCTAssert(mockVC.presenter.interactor != nil);
+    XCTAssert(mockVC.presenter.interactor.apiDataStore != nil);
+    
 
 }
 

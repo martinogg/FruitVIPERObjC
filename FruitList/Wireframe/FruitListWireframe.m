@@ -9,6 +9,8 @@
 #import "FruitListProtocols.h"
 #import "FruitListWireframe.h"
 #import "FruitListPresenter.h"
+#import "FruitListInteractor.h"
+#import "FruitListAPIDataStore.h"
 
 @interface FruitListWireframe ()
 
@@ -17,8 +19,12 @@
 @implementation FruitListWireframe
 
 +(void)attachFruitListModuleToViewController: (id<FruitListViewControllerProtocol>) viewController {
-    // TODO TEST
     FruitListPresenter* presenter = [[FruitListPresenter alloc] init];
+    FruitListInteractor* interactor = [[FruitListInteractor alloc] init];
+    FruitListAPIDataStore* apiDataStore = [[FruitListAPIDataStore alloc] init];
+    
+    presenter.interactor = interactor;
+    interactor.apiDataStore = apiDataStore;
     viewController.presenter = presenter;
     presenter.wireframe = [[FruitListWireframe alloc] init];
 }
