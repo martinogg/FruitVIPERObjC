@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEF9129720445148002E2D6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9129620445148002E2D6A /* AppDelegate.m */; };
+		EEF9129A20445148002E2D6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9129920445148002E2D6A /* ViewController.m */; };
+		EEF9129D20445148002E2D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF9129B20445148002E2D6A /* Main.storyboard */; };
+		EEF912A020445148002E2D6A /* fruitViperObjC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEF9129E20445148002E2D6A /* fruitViperObjC.xcdatamodeld */; };
+		EEF912A220445148002E2D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF912A120445148002E2D6A /* Assets.xcassets */; };
+		EEF912A520445148002E2D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF912A320445148002E2D6A /* LaunchScreen.storyboard */; };
+		EEF912A820445148002E2D6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912A720445148002E2D6A /* main.m */; };
+		EEF912B220445148002E2D6A /* fruitViperObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912B120445148002E2D6A /* fruitViperObjCTests.m */; };
+		EEF912BD20445148002E2D6A /* fruitViperObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912BC20445148002E2D6A /* fruitViperObjCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEF912AE20445148002E2D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF9128A20445148002E2D6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEF9129120445148002E2D6A;
+			remoteInfo = fruitViperObjC;
+		};
+		EEF912B920445148002E2D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF9128A20445148002E2D6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEF9129120445148002E2D6A;
+			remoteInfo = fruitViperObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEF9129220445148002E2D6A /* fruitViperObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fruitViperObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF9129520445148002E2D6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEF9129620445148002E2D6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEF9129820445148002E2D6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEF9129920445148002E2D6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEF9129C20445148002E2D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEF9129F20445148002E2D6A /* fruitViperObjC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fruitViperObjC.xcdatamodel; sourceTree = "<group>"; };
+		EEF912A120445148002E2D6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEF912A420445148002E2D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEF912A620445148002E2D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF912A720445148002E2D6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEF912AD20445148002E2D6A /* fruitViperObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fruitViperObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF912B120445148002E2D6A /* fruitViperObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fruitViperObjCTests.m; sourceTree = "<group>"; };
+		EEF912B320445148002E2D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF912B820445148002E2D6A /* fruitViperObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fruitViperObjCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF912BC20445148002E2D6A /* fruitViperObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fruitViperObjCUITests.m; sourceTree = "<group>"; };
+		EEF912BE20445148002E2D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEF9128F20445148002E2D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF912AA20445148002E2D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF912B520445148002E2D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEF9128920445148002E2D6A = {
+			isa = PBXGroup;
+			children = (
+				EEF9129420445148002E2D6A /* fruitViperObjC */,
+				EEF912B020445148002E2D6A /* fruitViperObjCTests */,
+				EEF912BB20445148002E2D6A /* fruitViperObjCUITests */,
+				EEF9129320445148002E2D6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEF9129320445148002E2D6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEF9129220445148002E2D6A /* fruitViperObjC.app */,
+				EEF912AD20445148002E2D6A /* fruitViperObjCTests.xctest */,
+				EEF912B820445148002E2D6A /* fruitViperObjCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEF9129420445148002E2D6A /* fruitViperObjC */ = {
+			isa = PBXGroup;
+			children = (
+				EEF9129520445148002E2D6A /* AppDelegate.h */,
+				EEF9129620445148002E2D6A /* AppDelegate.m */,
+				EEF9129820445148002E2D6A /* ViewController.h */,
+				EEF9129920445148002E2D6A /* ViewController.m */,
+				EEF9129B20445148002E2D6A /* Main.storyboard */,
+				EEF912A120445148002E2D6A /* Assets.xcassets */,
+				EEF912A320445148002E2D6A /* LaunchScreen.storyboard */,
+				EEF912A620445148002E2D6A /* Info.plist */,
+				EEF912A720445148002E2D6A /* main.m */,
+				EEF9129E20445148002E2D6A /* fruitViperObjC.xcdatamodeld */,
+			);
+			path = fruitViperObjC;
+			sourceTree = "<group>";
+		};
+		EEF912B020445148002E2D6A /* fruitViperObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEF912B120445148002E2D6A /* fruitViperObjCTests.m */,
+				EEF912B320445148002E2D6A /* Info.plist */,
+			);
+			path = fruitViperObjCTests;
+			sourceTree = "<group>";
+		};
+		EEF912BB20445148002E2D6A /* fruitViperObjCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEF912BC20445148002E2D6A /* fruitViperObjCUITests.m */,
+				EEF912BE20445148002E2D6A /* Info.plist */,
+			);
+			path = fruitViperObjCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEF9129120445148002E2D6A /* fruitViperObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF912C120445148002E2D6A /* Build configuration list for PBXNativeTarget "fruitViperObjC" */;
+			buildPhases = (
+				EEF9128E20445148002E2D6A /* Sources */,
+				EEF9128F20445148002E2D6A /* Frameworks */,
+				EEF9129020445148002E2D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fruitViperObjC;
+			productName = fruitViperObjC;
+			productReference = EEF9129220445148002E2D6A /* fruitViperObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEF912AC20445148002E2D6A /* fruitViperObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF912C420445148002E2D6A /* Build configuration list for PBXNativeTarget "fruitViperObjCTests" */;
+			buildPhases = (
+				EEF912A920445148002E2D6A /* Sources */,
+				EEF912AA20445148002E2D6A /* Frameworks */,
+				EEF912AB20445148002E2D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEF912AF20445148002E2D6A /* PBXTargetDependency */,
+			);
+			name = fruitViperObjCTests;
+			productName = fruitViperObjCTests;
+			productReference = EEF912AD20445148002E2D6A /* fruitViperObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEF912B720445148002E2D6A /* fruitViperObjCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF912C720445148002E2D6A /* Build configuration list for PBXNativeTarget "fruitViperObjCUITests" */;
+			buildPhases = (
+				EEF912B420445148002E2D6A /* Sources */,
+				EEF912B520445148002E2D6A /* Frameworks */,
+				EEF912B620445148002E2D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEF912BA20445148002E2D6A /* PBXTargetDependency */,
+			);
+			name = fruitViperObjCUITests;
+			productName = fruitViperObjCUITests;
+			productReference = EEF912B820445148002E2D6A /* fruitViperObjCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEF9128A20445148002E2D6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = martinogg;
+				TargetAttributes = {
+					EEF9129120445148002E2D6A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					EEF912AC20445148002E2D6A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEF9129120445148002E2D6A;
+					};
+					EEF912B720445148002E2D6A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEF9129120445148002E2D6A;
+					};
+				};
+			};
+			buildConfigurationList = EEF9128D20445148002E2D6A /* Build configuration list for PBXProject "fruitViperObjC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEF9128920445148002E2D6A;
+			productRefGroup = EEF9129320445148002E2D6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEF9129120445148002E2D6A /* fruitViperObjC */,
+				EEF912AC20445148002E2D6A /* fruitViperObjCTests */,
+				EEF912B720445148002E2D6A /* fruitViperObjCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEF9129020445148002E2D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF912A520445148002E2D6A /* LaunchScreen.storyboard in Resources */,
+				EEF912A220445148002E2D6A /* Assets.xcassets in Resources */,
+				EEF9129D20445148002E2D6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF912AB20445148002E2D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF912B620445148002E2D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEF9128E20445148002E2D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF9129A20445148002E2D6A /* ViewController.m in Sources */,
+				EEF912A020445148002E2D6A /* fruitViperObjC.xcdatamodeld in Sources */,
+				EEF912A820445148002E2D6A /* main.m in Sources */,
+				EEF9129720445148002E2D6A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF912A920445148002E2D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF912B220445148002E2D6A /* fruitViperObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF912B420445148002E2D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF912BD20445148002E2D6A /* fruitViperObjCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEF912AF20445148002E2D6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEF9129120445148002E2D6A /* fruitViperObjC */;
+			targetProxy = EEF912AE20445148002E2D6A /* PBXContainerItemProxy */;
+		};
+		EEF912BA20445148002E2D6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEF9129120445148002E2D6A /* fruitViperObjC */;
+			targetProxy = EEF912B920445148002E2D6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEF9129B20445148002E2D6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF9129C20445148002E2D6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEF912A320445148002E2D6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF912A420445148002E2D6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEF912BF20445148002E2D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEF912C020445148002E2D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEF912C220445148002E2D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fruitViperObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinogg.fruitViperObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEF912C320445148002E2D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fruitViperObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinogg.fruitViperObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEF912C520445148002E2D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fruitViperObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinogg.fruitViperObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fruitViperObjC.app/fruitViperObjC";
+			};
+			name = Debug;
+		};
+		EEF912C620445148002E2D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fruitViperObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinogg.fruitViperObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fruitViperObjC.app/fruitViperObjC";
+			};
+			name = Release;
+		};
+		EEF912C820445148002E2D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fruitViperObjCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinogg.fruitViperObjCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fruitViperObjC;
+			};
+			name = Debug;
+		};
+		EEF912C920445148002E2D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fruitViperObjCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinogg.fruitViperObjCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fruitViperObjC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEF9128D20445148002E2D6A /* Build configuration list for PBXProject "fruitViperObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF912BF20445148002E2D6A /* Debug */,
+				EEF912C020445148002E2D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEF912C120445148002E2D6A /* Build configuration list for PBXNativeTarget "fruitViperObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF912C220445148002E2D6A /* Debug */,
+				EEF912C320445148002E2D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEF912C420445148002E2D6A /* Build configuration list for PBXNativeTarget "fruitViperObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF912C520445148002E2D6A /* Debug */,
+				EEF912C620445148002E2D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEF912C720445148002E2D6A /* Build configuration list for PBXNativeTarget "fruitViperObjCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF912C820445148002E2D6A /* Debug */,
+				EEF912C920445148002E2D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EEF9129E20445148002E2D6A /* fruitViperObjC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EEF9129F20445148002E2D6A /* fruitViperObjC.xcdatamodel */,
+			);
+			currentVersion = EEF9129F20445148002E2D6A /* fruitViperObjC.xcdatamodel */;
+			path = fruitViperObjC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EEF9128A20445148002E2D6A /* Project object */;
+}
