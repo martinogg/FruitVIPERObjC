@@ -16,6 +16,10 @@
 		EEF912A820445148002E2D6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912A720445148002E2D6A /* main.m */; };
 		EEF912B220445148002E2D6A /* fruitViperObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912B120445148002E2D6A /* fruitViperObjCTests.m */; };
 		EEF912BD20445148002E2D6A /* fruitViperObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912BC20445148002E2D6A /* fruitViperObjCUITests.m */; };
+		EEF912D4204453FD002E2D6A /* FruitListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912D3204453FD002E2D6A /* FruitListViewController.m */; };
+		EEF912D9204459F1002E2D6A /* FruitListWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912D8204459F1002E2D6A /* FruitListWireframe.m */; };
+		EEF912DB20445C8A002E2D6A /* FruitListWireframeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912DA20445C8A002E2D6A /* FruitListWireframeTests.m */; };
+		EEF912DE2044785D002E2D6A /* FruitListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF912DD2044785D002E2D6A /* FruitListPresenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		EEF912B820445148002E2D6A /* fruitViperObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fruitViperObjCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF912BC20445148002E2D6A /* fruitViperObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fruitViperObjCUITests.m; sourceTree = "<group>"; };
 		EEF912BE20445148002E2D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF912D2204453FD002E2D6A /* FruitListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FruitListViewController.h; sourceTree = "<group>"; };
+		EEF912D3204453FD002E2D6A /* FruitListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitListViewController.m; sourceTree = "<group>"; };
+		EEF912D62044545F002E2D6A /* FruitListProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FruitListProtocols.h; sourceTree = "<group>"; };
+		EEF912D7204459F1002E2D6A /* FruitListWireframe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FruitListWireframe.h; sourceTree = "<group>"; };
+		EEF912D8204459F1002E2D6A /* FruitListWireframe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitListWireframe.m; sourceTree = "<group>"; };
+		EEF912DA20445C8A002E2D6A /* FruitListWireframeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitListWireframeTests.m; sourceTree = "<group>"; };
+		EEF912DC2044785D002E2D6A /* FruitListPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FruitListPresenter.h; sourceTree = "<group>"; };
+		EEF912DD2044785D002E2D6A /* FruitListPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitListPresenter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,7 @@
 		EEF9128920445148002E2D6A = {
 			isa = PBXGroup;
 			children = (
+				EEF912CA20445301002E2D6A /* FruitList */,
 				EEF9129420445148002E2D6A /* fruitViperObjC */,
 				EEF912B020445148002E2D6A /* fruitViperObjCTests */,
 				EEF912BB20445148002E2D6A /* fruitViperObjCUITests */,
@@ -122,6 +135,7 @@
 			children = (
 				EEF912B120445148002E2D6A /* fruitViperObjCTests.m */,
 				EEF912B320445148002E2D6A /* Info.plist */,
+				EEF912DA20445C8A002E2D6A /* FruitListWireframeTests.m */,
 			);
 			path = fruitViperObjCTests;
 			sourceTree = "<group>";
@@ -133,6 +147,68 @@
 				EEF912BE20445148002E2D6A /* Info.plist */,
 			);
 			path = fruitViperObjCUITests;
+			sourceTree = "<group>";
+		};
+		EEF912CA20445301002E2D6A /* FruitList */ = {
+			isa = PBXGroup;
+			children = (
+				EEF912D520445424002E2D6A /* Protocols */,
+				EEF912CF2044535A002E2D6A /* DataStore */,
+				EEF912CE20445339002E2D6A /* Presenter */,
+				EEF912CD2044532D002E2D6A /* Interactor */,
+				EEF912CC20445323002E2D6A /* View */,
+				EEF912CB20445318002E2D6A /* Wireframe */,
+			);
+			path = FruitList;
+			sourceTree = "<group>";
+		};
+		EEF912CB20445318002E2D6A /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				EEF912D7204459F1002E2D6A /* FruitListWireframe.h */,
+				EEF912D8204459F1002E2D6A /* FruitListWireframe.m */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		EEF912CC20445323002E2D6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEF912D2204453FD002E2D6A /* FruitListViewController.h */,
+				EEF912D3204453FD002E2D6A /* FruitListViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEF912CD2044532D002E2D6A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		EEF912CE20445339002E2D6A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EEF912DC2044785D002E2D6A /* FruitListPresenter.h */,
+				EEF912DD2044785D002E2D6A /* FruitListPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EEF912CF2044535A002E2D6A /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		EEF912D520445424002E2D6A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EEF912D62044545F002E2D6A /* FruitListProtocols.h */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,8 +345,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEF9129A20445148002E2D6A /* ViewController.m in Sources */,
+				EEF912D9204459F1002E2D6A /* FruitListWireframe.m in Sources */,
 				EEF912A020445148002E2D6A /* fruitViperObjC.xcdatamodeld in Sources */,
 				EEF912A820445148002E2D6A /* main.m in Sources */,
+				EEF912D4204453FD002E2D6A /* FruitListViewController.m in Sources */,
+				EEF912DE2044785D002E2D6A /* FruitListPresenter.m in Sources */,
 				EEF9129720445148002E2D6A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEF912B220445148002E2D6A /* fruitViperObjCTests.m in Sources */,
+				EEF912DB20445C8A002E2D6A /* FruitListWireframeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
