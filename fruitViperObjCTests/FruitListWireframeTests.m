@@ -42,6 +42,7 @@
     XCTAssert(mockVC.presenter.interactor != nil);
     XCTAssert(mockVC.presenter.interactor.apiDataStore != nil);
     XCTAssert(mockVC.presenter.view == mockVC);
+    XCTAssert(mockVC.presenter.interactor.presenter == mockVC.presenter);
 
 }
 

@@ -14,6 +14,7 @@
     self = [super init];
     if (self) {
         _buttonWasPressed = false;
+        _viewDidLoadCalled = false;
     }
     return self;
 }
@@ -21,5 +22,10 @@
 -(void) buttonPressed {
     self.buttonWasPressed = true;
 }
+
+- (void)viewDidLoad {
+    self.viewDidLoadCalled = true;
+}
+
 
 @end

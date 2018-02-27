@@ -28,6 +28,7 @@
     viewController.presenter = presenter;
     presenter.wireframe = [[FruitListWireframe alloc] init];
     presenter.view = viewController;
+    presenter.interactor.presenter = presenter;
 }
 
 @end

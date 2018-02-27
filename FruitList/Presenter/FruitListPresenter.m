@@ -14,8 +14,24 @@
 
 @implementation FruitListPresenter
 
--(void) buttonPressed {
+- (void)buttonPressed {
     [_view showFruitDetail];
+}
+
+- (void)viewDidLoad {
+    //TODO + TEST
+    // Call the API to get the list and push it back into View
+    [self.interactor fetchFruitData];
+}
+
+#pragma mark - FruitListInteractorOutputProtocol
+
+- (void)showFruit:(NSArray<Fruit *> *)fruit {
+    //TODO + TEST
+}
+
+- (void)showError:(NSError *)error {
+    // TODO+ TEST
 }
 
 @end

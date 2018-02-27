@@ -17,5 +17,6 @@
 @property (nonatomic, retain) id<FruitListWireFrameProtocol> wireframe;
 @property (nonatomic, retain) id<FruitListInteractorProtocol> interactor;
 @property (nonatomic) BOOL buttonWasPressed;
+@property (nonatomic) BOOL viewDidLoadCalled;
 
 @end

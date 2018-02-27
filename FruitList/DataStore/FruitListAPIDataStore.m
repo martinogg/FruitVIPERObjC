@@ -15,4 +15,8 @@
 
 @implementation FruitListAPIDataStore
 
+- (void)requestFruitListWithOnSuccess:(void (^)(void))successCallBack onFail:(void (^)(void)) failCallback {
+    // TODO TEST
+}
+
 @end

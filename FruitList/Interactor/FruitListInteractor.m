@@ -15,4 +15,16 @@
 
 @implementation FruitListInteractor
 
+@synthesize presenter;
+
+- (void)fetchFruitData {
+    // TODO TEST
+    // call the API and send back the data
+    [_apiDataStore requestFruitListWithOnSuccess:^{
+        // Store Results and Pass to View
+    } onFail:^{
+        // Fall back to Stored Results or show error
+    }];
+}
+
 @end

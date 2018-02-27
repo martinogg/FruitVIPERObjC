@@ -10,9 +10,7 @@
 
 #import "FruitListProtocols.h"
 
-@interface FruitListViewController : UIViewController <FruitListViewControllerProtocol>
-
--(IBAction) buttonPressed:(id)sender;
+@interface FruitListViewController : UITableViewController <FruitListViewControllerProtocol>
 
 @property (nonatomic, retain) id<FruitListPresenterProtocol> presenter;
 

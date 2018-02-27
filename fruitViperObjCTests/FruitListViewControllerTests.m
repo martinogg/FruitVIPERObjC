@@ -12,7 +12,7 @@
 #import "ExtensionFruitListViewController.h"
 
 @interface FruitListViewControllerTests : XCTestCase
-
+@property (nonatomic, retain) FruitListViewController* vcToTest;
 @end
 
 @implementation FruitListViewControllerTests
@@ -20,6 +20,7 @@
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
+    self.vcToTest = [[FruitListViewController alloc] init];
 }
 
 - (void)tearDown {
@@ -27,6 +28,15 @@
     [super tearDown];
 }
 
+- (void)testViewDidLoad {
+    MockFruitListPresenter* mockPresenter = [[MockFruitListPresenter alloc] init];
+    _vcToTest.presenter = mockPresenter;
+    [_vcToTest viewDidLoad];
+    
+    XCTAssert(mockPresenter.viewDidLoadCalled);
+}
+
+/*
 - (void)testButtonPressed {
     FruitListViewController* vcToTest = [[FruitListViewController alloc] init];
     MockFruitListPresenter* mockPresenter = [[MockFruitListPresenter alloc] init];
@@ -37,6 +47,7 @@
     
     XCTAssert(mockPresenter.buttonWasPressed);
 }
+ */
 
 - (void)testPushSegue
 {

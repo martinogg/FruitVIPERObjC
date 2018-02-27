@@ -10,7 +10,7 @@
 #import "FruitListProtocols.h"
 
 
-@interface FruitListPresenter : NSObject <FruitListPresenterProtocol>
+@interface FruitListPresenter : NSObject <FruitListPresenterProtocol, FruitListInteractorOutputProtocol>
 
 @property (nonatomic, weak) id<FruitListViewControllerProtocol> view;
 @property (nonatomic, retain) id<FruitListWireFrameProtocol> wireframe;
