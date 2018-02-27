@@ -4,10 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>fruitViperObjC.xcscheme</key>
+		<key>fruitViperObjC.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>EEF9129120445148002E2D6A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EEF912AC20445148002E2D6A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EEF912B720445148002E2D6A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
